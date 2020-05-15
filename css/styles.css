@@ -1,0 +1,58 @@
+body{
+  font-size: 16px;
+  color: #000000;
+  background-color: #1212E0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#header-nav{
+  background: linear-gradient(to right,#FFFFFF,#6AFFFC);
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand{
+  padding-top: 25px;
+}
+.navbar-brand h1{
+  color:#000000;
+  font-size: 1.5em;
+  font-weight:bold;
+  text-shadow: 1px 1px 4px #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list a{
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover{
+   background: #E7E7E7;
+ }
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+   border:1px solid #61122F;
+ }
+ .navbar-header button.navbar-toggle{
+   clear: both;
+   margin-top: -30px;
+ }
+
+ #Burger-tile, #Pizza-tile, #Beverages-tile{
+   margin-bottom: 20px;
+   position:relative;
+   border: 2px solid #000000;
+   margin-top:20px;
+   padding: 0 10px 10px 10px;
+   background-color:#6AFFFC;
+ }
+ #Burger-tile h3, #Pizza-tile h3, #Beverages-tile h3{
+   margin-top:10px;
+ }
+ #Burger-tile p a, #Pizza-tile p a, #Beverages-tile p a{
+   text-decoration: underline;
+ }
